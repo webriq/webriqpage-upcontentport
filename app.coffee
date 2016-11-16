@@ -30,6 +30,7 @@ module.exports =
       characters: { file: "data/characters.json" }
       socials: { file: "data/socials.json" }
       site: { file: "data/site.json" }
+      files: { file: "data/files.json" }
     ),
     collections(folder: 'pages', layout: 'page'),
     js_pipeline(files: 'assets/js/*.coffee'),
